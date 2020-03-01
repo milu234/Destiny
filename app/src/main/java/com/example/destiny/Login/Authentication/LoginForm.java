@@ -28,17 +28,9 @@ public class LoginForm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_form);
 
-        topText = findViewById(R.id.topText);
-        pinView = findViewById(R.id.pinView);
-        next = findViewById(R.id.button);
-        userName = findViewById(R.id.username);
-        userPhone = findViewById(R.id.userPhone);
-        first = findViewById(R.id.first_step);
-        second = findViewById(R.id.secondStep);
-        textU = findViewById(R.id.textView_noti);
-        first.setVisibility(View.VISIBLE);
 
-        next.setOnClickListener((View.OnClickListener) this);
+
+
     }
 
 
